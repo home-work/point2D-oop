@@ -10,4 +10,12 @@ public class Point2DTest {
         String actual = point2D.toString();
         assertEquals(expect, actual);
     }
+
+    @Test
+    public void testClassPoint3D() {
+        Point3D point3D = new Point3D(3,5,6);
+        String expect = "(3.0,5.0,6.0)";
+        String actual = point3D.toString();
+        assertEquals(expect, actual);
+    }
 }
